@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_infotainment-player_FILE /Users/jiyun/CascadeProjects/infotainment-player/build/infotainment-player)
+set(__QT_DEPLOY_TARGET_infotainment-player_TYPE EXECUTABLE)
