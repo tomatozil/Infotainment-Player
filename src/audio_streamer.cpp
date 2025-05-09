@@ -10,6 +10,7 @@ AudioStreamer::~AudioStreamer() {
 }
 
 void AudioStreamer::initGStreamer() {
+    gst_init(nullptr, nullptr);
     m_pipeline = gst_element_factory_make("playbin", "player");
     if (!m_pipeline) {
         emit errorOccurred("Failed to create playbin");

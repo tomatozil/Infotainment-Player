@@ -38,7 +38,7 @@ protected:
     GstElement *m_pipeline;
 
 public slots:
-    virtual void play(const QString &source, PlayerMode mode) = 0;
+    virtual void play(const QString &source) = 0;
     virtual void pause() = 0;
     virtual void stop() = 0;
     virtual void setVolume(int volume) = 0;

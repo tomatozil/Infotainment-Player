@@ -75,20 +75,6 @@ export QT_QPA_EGLFS_HEIGHT=480  # 화면 해상도
   - 모드 전환 (오디오/비디오)
   - 상태 표시 (재생 중/일시정지)
 
-### 오류 해결
-
-1. 화면이 표시되지 않는 경우
-```bash
-export QT_QPA_PLATFORM=eglfs
-export QT_QPA_EGLFS_KMS_CONFIG=/path/to/kms_config.json
-```
-
-2. 오디오 출력 문제
-```bash
-export GST_DEBUG=*:3
-```
-
-
 ## GStreamer Pipeline
 
 playbin
